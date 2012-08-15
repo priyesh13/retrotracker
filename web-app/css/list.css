@@ -1,0 +1,158 @@
+h2#iteration {
+    font-family: 'Sansita One', cursive;
+    font-size: 20px;
+    color: #c4df72;
+    padding: 20px 0 5px 3px;
+}
+
+h2#iteration span#iterationNumber {
+    font-size: 25px;
+}
+
+h3#date {
+    font-family: 'Sansita One', cursive;
+    font-size: 16px;
+    color: #b9dbdd;
+    padding: 0 0 5px 3px;
+}
+
+div.container {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table#retroActionList {
+    text-align: center;
+    width: 100%;
+    border-collapse: separate;
+    line-height: 1.4em;
+    font-style: normal;
+}
+
+table#retroActionList th {
+    font-family: 'Sansita One', cursive;
+    font-size: 16px;
+    color: #fff;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #568F23;
+    border: 1px solid #93CE37;
+    border-bottom: 3px solid #9ED929;
+    background-color: #9DD929;
+    background: -webkit-gradient(linear, left bottom, left top, color-stop(0.02, rgb(123, 192, 67)), color-stop(0.51, rgb(139, 198, 66)), color-stop(0.87, rgb(158, 217, 41)));
+    background: -moz-linear-gradient(center bottom, rgb(123, 192, 67) 2%, rgb(139, 198, 66) 51%, rgb(158, 217, 41) 87%);
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius: 5px 5px 0px 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.retroActionListCells {
+    width: 100%;
+}
+
+table th.action,
+.retroActionListCells td.action {
+    text-align: left;
+    width: 60%;
+    padding: 0 15px;
+}
+
+table th.owners,
+.retroActionListCells td.owners {
+    width: 20%;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.retroActionListCells td.completed {
+    text-align: center;
+    padding: 10px 0;
+    cursor: pointer;
+}
+
+.retroActionListCells tr td{
+    background-color: #51A5BA;
+    vertical-align: middle;
+}
+
+.retroActionListCells tr {
+    border-bottom: 1px solid #aaa;
+}
+
+.retroActionListCells td p.complete {
+    text-indent: -9999px;
+    background: url(../images/tick.png) no-repeat center;
+    padding: 15px;
+}
+
+.retroActionListCells td p.incomplete {
+    text-indent: -9999px;
+    background: url(../images/cross.png) no-repeat center;
+    padding: 15px;
+}
+
+.retroActionListCells td div.norm {
+    background: url(../images/norm.png) no-repeat center;
+    height: 50px;
+    position: relative;
+}
+
+.retroActionListCells td span.norm {
+    margin: 15px auto 0;
+    color: #202b41;
+}
+
+.retroActionListCells td.editLink a.editLink {
+    display: block;
+    overflow: hidden;
+    background: url(../images/pencil-icon.png) no-repeat center;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    padding: 15px;
+    text-indent: -9999px;
+}
+
+.collapse {
+    display: none;
+}
+
+.collapse.in {
+    display: block;
+}
+
+.accordion-heading .accordion-toggle {
+    display: block;
+    padding:  8px 15px 12px;
+    background-color: #DEF3CA;
+    border-top: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: black;
+}
+
+.accordion-heading .accordion-toggle:hover {
+    background-color: #336666;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.accordion-heading a {
+    color: #000000;
+    text-decoration: none;
+}
+
+div.incomplete-icon-wrapper {
+    float: right;
+}
+
+div.incomplete-icon {
+    background: url(../images/cross-small.png) no-repeat;
+    height: 24px;
+    width: 24px;
+}
+
+

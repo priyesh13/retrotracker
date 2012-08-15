@@ -1,0 +1,146 @@
+/* RESET */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+    font-family: 'PT Sans', Arial, sans-serif;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Retro Action Tracker */
+body {
+    background-color: #202b41
+}
+
+h1 {
+    font-family: 'Sansita One', cursive;
+    font-size: 50px;
+    color: #c4df72;
+    padding: 20px;
+}
+.nav span{
+    float: right;
+}
+.nav span a.navLink {
+    text-decoration: none;
+    font-family: 'Sansita One', cursive;
+    color: #c4df72;
+}
+
+span#createAction a.navLink,
+span#home a.navLink {
+    font-size: 24px;
+}
+
+h1#homeTitle{
+    width: 500px;
+    display: inline-block;
+    padding: 20px 0;
+}
+.nav span{
+    display: inline;
+    margin-top: 35px;
+    margin-right: 2%;
+}
+.nav span#createAction{
+    margin-right: 0;
+}
+
+.hidden {
+    display: none;
+}
+
+.dialog {
+    margin-left: 20px;
+    padding-bottom: 20px;
+}
+
+/* Flash messages */
+.message {
+    background: #f3f8fc url(../images/information.png) 16px 50% no-repeat;
+    border: 1px solid #b2d1ff;
+    color: #006dba;
+    margin: 10px 0 25px 0;
+    padding: 10px 5px 10px 50px;
+    position: relative;
+    display: block;
+    left: 20px;
+    width: 92%;
+    border-radius: 5px;
+}
+
+div.errors {
+    background: #fff3f3;
+    border: 1px solid #ffc125;
+    color: #ffff00;
+    margin: 10px 0 5px 0;
+    padding: 10px 0 10px 0;
+    position: relative;
+    display: block;
+    left: 20px;
+    width: 92%;
+    border-radius: 5px;
+}
+div.errors ul {
+    list-style: none;
+    padding: 0;
+}
+div.errors li {
+	background: url(../images/exclamation.png) 16px 0% no-repeat;
+    line-height: 16px;
+    padding-left: 30px;
+}
+
+td.errors select {
+    border: 1px solid #ffc125;
+}
+td.errors input {
+    border: 1px solid #ffc125;
+}
+td.errors textarea {
+    border: 1px solid #ffc125;
+}
+

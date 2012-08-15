@@ -1,0 +1,65 @@
+.formFields {
+    display: block;
+    padding-bottom: 20px;
+}
+
+label {
+    margin-right: 40px;
+    color: #B9DBDD;
+    font-family: 'Sansita One', cursive;
+    font-size: 16px;
+}
+
+input#norm {
+    margin-left: 91px;
+}
+
+input#completed {
+    margin-left: 53px;
+}
+
+textarea#retroAction {
+    width: 600px;
+    height: 120px;
+    border: 3px solid #cccccc;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+}
+
+p.ownersDesc {
+    font-family: 'Sansita One', cursive;
+    font-size: 14px;
+    color: #202B41;
+    margin: 5px 15px 20px 0;
+}
+
+a#addOwnerButton {
+    font-family: 'Sansita One', cursive;
+    font-size: 14px;
+    color: #B9DBDD;
+}
+
+.ownerInput {
+    padding-bottom: 10px;
+}
+
+#ownerList {
+    float: left;
+    margin-right: 10px;
+}
+
+div#addOwnerText {
+    margin-top: 25px;
+}
+
+div.buttons {
+    margin-left: 20px
+}
+
+.edit{
+    background-color: #FAFAFA;
+}
+
+.edit label{
+    color: #202B41;
+}
